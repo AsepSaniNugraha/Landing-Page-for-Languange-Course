@@ -23,7 +23,7 @@ const Hero = () => {
                             <Button label="VIEW PROGRAMS" />
                         </div>
                     </div>
-                    <img src={herobg} alt="" loading='lazy' className='hidden h-fit md:block md:w-1/3 lg:w-full' />
+                    <img src={herobg} alt="" loading='eager' className="hidden md:block md:w-1/3 lg:w-full aspect-4/3 object-cover" />
                 </div>
             </div>
         </section>
