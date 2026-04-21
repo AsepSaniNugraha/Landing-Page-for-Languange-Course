@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/LanguangeCourse/',
+  base: '/Landing-Page-for-Languange-Course/',
   plugins: [react(), tailwindcss()],
 })
